@@ -20,7 +20,7 @@ You must be on the ad-hoc network of the AR Drone to perform actions
 
 ### Repl
 
-Repl allows you to controll the drone from the command line. Repl is a blocking function no other commands will execute whilst in Repl.
+Repl allows you to control the drone from the command line. Repl is a blocking function no other commands will execute whilst in Repl.
 
 ## Credits
 
