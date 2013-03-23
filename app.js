@@ -6,12 +6,3 @@ arDrone = require('ar-drone');
 client = arDrone.createClient();
 
 client.createRepl();
-
-client.takeoff();
-
-client.after(5000, function() {
-  return this.clockwise(0.5);
-}).after(3000, function() {
-  this.stop();
-  return this.land();
-});
